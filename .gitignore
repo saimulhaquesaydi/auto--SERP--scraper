@@ -1,0 +1,8 @@
+# Chrome extension files to ignore
+.DS_Store
+*.crx
+*.pem
+node_modules/
+dist/
+temp/
+*.log
