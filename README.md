@@ -18,18 +18,18 @@ A powerful Chrome extension that automatically scrapes and collects URLs from Go
 - **Desktop Notifications**: Get notified about important events
 
 ### Data Management
-- **CSV Export**: Download collected URLs as CSV file
+- **CSV Export**: Download collected URLs as a CSV file
 - **Copy to Clipboard**: Quick copy all URLs with one click
 - **Data Persistence**: All data saved locally, never lost
 - **Clear Data**: Easy cleanup when starting fresh
 
-## 📦 Installation
+##  Installation
 
 ### From Source
 1. Download or clone this repository
 2. Open Chrome and go to `chrome://extensions/`
 3. Enable "Developer mode" (toggle in top-right corner)
-4. Click "Load unpacked"
+4. Click "Load unpacked."
 5. Select the extension folder
 6. The extension icon will appear in your toolbar
 
@@ -41,7 +41,7 @@ A powerful Chrome extension that automatically scrapes and collects URLs from Go
 - `popup.js` - Popup functionality
 - `org.pic.png` - Extension icon
 
-## 🚀 Usage Guide
+##  Usage Guide
 
 ### Basic Usage
 
@@ -96,7 +96,7 @@ When Google shows a CAPTCHA:
 - 🚫 CAPTCHA - CAPTCHA detected, solve and resume
 - ✅ Complete - Session completed after download
 
-## 📊 Statistics Display
+##  Statistics Display
 
 The popup shows real-time statistics:
 - **Search Term**: Current search query
@@ -104,7 +104,7 @@ The popup shows real-time statistics:
 - **URLs Collected**: Total unique URLs found
 - **Status**: Current scraping state
 
-## ⚙️ Configuration
+##  Configuration
 
 ### Adjustable Settings (in background.js)
 
@@ -121,7 +121,7 @@ const MAX_URLS_STORED = 10000;         // Maximum URLs to store
 - `notifications` - Show desktop notifications
 - `google.com/*` - Access Google search pages
 
-## 🔧 Troubleshooting
+##  Troubleshooting
 
 ### Extension Not Working
 - **Check URL**: Must be on google.com/search page
@@ -143,7 +143,7 @@ const MAX_URLS_STORED = 10000;         // Maximum URLs to store
 - **Reload Page**: Try refreshing the Google search page
 - **Check Console**: Look for error messages in browser console
 
-## 📝 Data Format
+##  Data Format
 
 ### CSV Export Format
 ```csv
@@ -169,21 +169,21 @@ Data is stored in Chrome's local storage:
 }
 ```
 
-## 🛡️ Privacy & Security
+##  Privacy & Security
 
 - **Local Storage Only**: All data stored locally in your browser
 - **No External Servers**: No data sent to external servers
 - **No Tracking**: Extension doesn't track your activity
 - **Open Source**: All code is visible and auditable
 
-## ⚠️ Limitations
+##  Limitations
 
 - **Google Rate Limits**: Google may show CAPTCHAs if scraping too fast
 - **Layout Changes**: Google layout changes may affect scraping
 - **Maximum Pages**: Practical limit around 50-100 pages per session
 - **Chrome Only**: Currently only works in Chrome/Chromium browsers
 
-## 🔄 Updates & Maintenance
+##  Updates & Maintenance
 
 ### Version History
 - **v1.2.0** - Current version with enhanced resume system
@@ -197,7 +197,7 @@ Data is stored in Chrome's local storage:
 - [ ] Scraping statistics dashboard
 - [ ] Multi-search session support
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please:
 1. Fork the repository
@@ -206,11 +206,11 @@ Contributions are welcome! Please:
 4. Test thoroughly
 5. Submit a pull request
 
-## 📄 License
+##  License
 
 This project is provided as-is for educational and personal use.
 
-## 💡 Tips & Best Practices
+##  Tips & Best Practices
 
 1. **Start Small**: Test with 5-10 pages first
 2. **Monitor Badge**: Keep an eye on the badge status
@@ -219,14 +219,14 @@ This project is provided as-is for educational and personal use.
 5. **Respect Rate Limits**: Don't scrape too aggressively
 6. **Clear Old Data**: Use "Clear Data" before new searches
 
-## 🆘 Support
+##  Support
 
 For issues, questions, or suggestions:
 - Check the troubleshooting section above
-- Review browser console for error messages
+- Review the browser console for error messages
 - Ensure you're using the latest version
 
-## 🎯 Use Cases
+##  Use Cases
 
 - **SEO Research**: Analyze competitor rankings
 - **Market Research**: Collect business listings
@@ -237,3 +237,4 @@ For issues, questions, or suggestions:
 ---
 
 **Note**: This extension is for educational and research purposes. Always respect Google's Terms of Service and robots.txt. Use responsibly and ethically.
+
