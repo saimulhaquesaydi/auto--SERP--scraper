@@ -141,7 +141,7 @@ const MAX_URLS_STORED = 10000;         // Maximum URLs to store
 ### Resume Not Working
 - **Check Tab**: Must be on a Google search page
 - **Reload Page**: Try refreshing the Google search page
-- **Check Console**: Look for error messages in browser console
+- **Check Console**: Look for error messages in the browser console
 
 ##  Data Format
 
@@ -171,14 +171,14 @@ Data is stored in Chrome's local storage:
 
 ##  Privacy & Security
 
-- **Local Storage Only**: All data stored locally in your browser
+- **Local Storage Only**: All data is stored locally in your browser
 - **No External Servers**: No data sent to external servers
 - **No Tracking**: Extension doesn't track your activity
 - **Open Source**: All code is visible and auditable
 
 ##  Limitations
 
-- **Google Rate Limits**: Google may show CAPTCHAs if scraping too fast
+- **Google Rate Limits**: Google may show CAPTCHA if scraping too fast
 - **Layout Changes**: Google layout changes may affect scraping
 - **Maximum Pages**: Practical limit around 50-100 pages per session
 - **Chrome Only**: Currently only works in Chrome/Chromium browsers
@@ -197,14 +197,7 @@ Data is stored in Chrome's local storage:
 - [ ] Scraping statistics dashboard
 - [ ] Multi-search session support
 
-##  Contributing
 
-Contributions are welcome! Please:
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
 
 ##  License
 
